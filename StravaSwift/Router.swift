@@ -411,7 +411,7 @@ extension Router: URLRequestConvertible  {
             }
         }
         
-        let URLRequest = NSMutableURLRequest(URL: baseURL.URLByAppendingPathComponent(config.path))
+        let URLRequest = NSMutableURLRequest(URL: baseURL.URLByAppendingPathComponent(config.path)!)
         URLRequest.HTTPMethod = config.method.rawValue
         
         if let token = StravaClient.sharedInstance.token?.accessToken {
