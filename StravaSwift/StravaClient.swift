@@ -34,8 +34,8 @@ open class StravaClient {
             "redirect_uri" : config?.redirectUri as AnyObject? ?? "" as AnyObject,
             "scope" : config?.scope.rawValue as AnyObject? ?? "" as AnyObject,
             "state" : "ios" as AnyObject,
-            "approval_prompt" : "force",
-            "response_type" : "code"
+            "approval_prompt" : "force" as AnyObject,
+            "response_type" : "code" as AnyObject
         ]
     }
     
