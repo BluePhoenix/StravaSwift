@@ -12,6 +12,6 @@ A Swift library for the Strava API v3. For complete details visit the Strava dev
   s.social_media_url = 'https://twitter.com/matt_pc'
   s.ios.deployment_target = '9.0'
   s.source_files = 'StravaSwift/**/*'
-  s.dependency 'Alamofire', '~> 3.4'
-  s.dependency 'SwiftyJSON', '~> 2.3'
+  s.dependency 'Alamofire', '~> 4.0'
+  s.dependency 'SwiftyJSON', '~> 3.1'
 end
